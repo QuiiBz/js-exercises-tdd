@@ -6,7 +6,7 @@ test("gets a list of repositories names", function() {
   // act
   return getRepos(url).then(function(result) {
     // assert
-    expect(result).toContain("js-exercises");
+    expect(result).toContain("aws-lambda-starter");
     expect(result).toContain("dom-ajax-repo");
   });
 });
